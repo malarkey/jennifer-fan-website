@@ -9,7 +9,6 @@
 --font-family-default: "lubalin-sans-vf-trial", sans-serif;
 
 /* Fluid font scale - scales between min/max viewports */
-/* @link https://utopia.fyi/type/calculator?c=360,14,1.2,1240,18,1.25,6,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
 --font-size-xs: clamp(0.6076rem, 0.5617rem + 0.2043vw, 0.72rem);
 --font-size-s: clamp(0.7292rem, 0.6593rem + 0.3106vw, 0.9rem);
@@ -214,8 +213,7 @@ html { scroll-behavior: auto !important; }
 *, *::before, *::after {
 animation: none !important;
 transition: none !important;
-scroll-behavior: auto !important;
-}
+scroll-behavior: auto !important; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -234,7 +232,7 @@ text-size-adjust: none; }
 body {
 -webkit-font-smoothing: auto;
 background-attachment: fixed;
-background-color: var(--color-background-default);
+background-color: transparent;
 background-image: url(/img/bg-1.svg);
 background-repeat: no-repeat;
 background-size: contain;
@@ -244,7 +242,7 @@ font-feature-settings: liga 1;
 font-optical-sizing: auto;
 font-size: 1em;
 font-style: normal;
-font-variation-settings: "italic" 1, "wght" 300, "wdth" 100;
+font-variation-settings: var(--font-light-normal);
 font-weight: normal;
 line-height: var(--lineheight-r);
 margin: 0 auto;
@@ -693,6 +691,17 @@ padding-block: 7px;
 padding-inline: var(--spacing-s); }
 
 /* ==========================================================================
+TABLE COMPONENTS
+========================================================================== */
+
+table {
+font-family: inherit; }
+
+th, td {
+font-size: var(--font-size-s);
+padding-inline-end: var(--spacing-s); }
+
+/* ==========================================================================
 FONT SIZE UTILITIES
 ========================================================================== */
 
@@ -803,7 +812,7 @@ transition: fill var(--animate-duration-faster) var(--animate-function); }
 fill: var(--color-text-link-hover); }
 
 #banner-logo {
-background-color: var(--color-background-default);
+border-block-start:  calc(2 * var(--border-width-l)) solid var(--color-background-default);
 margin-block-start: calc(-1 * var(--border-width-l)); }
 
 [data-layout="hooden-claw"] > *,
@@ -814,7 +823,7 @@ margin-block-end: unset !important; }
 padding-inline: var(--grid-column-gap); }
 
 [data-layout="yogi"] #banner-logo {
-padding-block: var(--grid-column-gap);
+padding-block: var(--spacing-r);
 padding-inline-end: var(--grid-column-gap); }
 
 /* ==========================================================================
@@ -950,12 +959,13 @@ body { padding: var(--spacing-l); }
 nav {
 margin-inline: 5vw; }
 
-[data-layout="yogi"] #banner-logo {
-padding-block-start: unset; }
-
 #banner-logo a {
 display: block;
-margin-block-start: calc(-2 * var(--border-width-l)); }
+margin-block: calc(-2 * var(--border-width-l));
+translate: 0 calc(-2 * var(--border-width-l)); }
+
+[data-layout="yogi"] #banner-logo {
+padding-block: 0; }
 
 #container {
 padding-block-end: var(--spacing-xl); }
@@ -1082,6 +1092,7 @@ padding-top: var(--spacing-l); }
 
 /* Form input states */
 :is([type="email"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"], textarea):focus {
+border: var(--border-width-r) solid var(--color-text-link-hover);
 scale: var(--scale-up); }
 
 .btn[data-variant="l"] {
