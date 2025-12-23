@@ -25,6 +25,14 @@
       "oAP" : "\/about.html",
       "oF" : 0
     },
+    "\/approach.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/approach.html",
+      "oF" : 0
+    },
     "\/article.html" : {
       "cB" : 0,
       "ft" : 8192,

@@ -293,6 +293,7 @@ font-family: var(--font-family-default);
 font-style: normal;
 font-variation-settings: var(--font-light-normal);
 font-weight: normal;
+letter-spacing: .05em;
 line-height: var(--lineheight-s);
 margin-block: 0 var(--spacing-s);
 text-transform: uppercase;
@@ -743,8 +744,6 @@ NAVIGATION COMPONENTS
 */
 
 nav {
--webkit-backdrop-filter: blur(var(--blur-radius));
-backdrop-filter: blur(var(--blur-radius));
 border-block-start: var(--border-width-l) solid var(--color-border);
 border-inline: var(--border-width-l) solid var(--color-border);
 margin-block-start: var(--spacing-r);
