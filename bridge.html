@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Philosophy • Dr. Jennifer Fan</title>
+<title>A Bridge Between the Work and the Self • Dr. Jennifer Fan</title>
 <!-- ********************************************************
 Design and development: Andy Clarke
 Company: Stuff & Nonsense
@@ -34,79 +34,6 @@ Mastodon: https://mastodon.social/@malarkey
 <meta property="og:description" content="" />
 <meta property="og:url" content=""/>
 <link rel="canonical" href=""/>
-
-<style>
-@media (prefers-reduced-motion: no-preference) {
-html { view-transition-name: none; }
-}
-
-#sections {
-position: relative; }
-
-.item-section {
-view-transition-name: section; }
-
-.item-detail {
-background-color: var(--color-background-default);
-block-size: 100%;
-inline-size: 100%;
-left: 0;
-opacity: 0;
-padding: var(--spacing-m);
-pointer-events: none;
-overflow-y: auto;
-position: absolute;
-top: 0;
-transform: translateY(20px);
-view-transition-name: detail;
-visibility: hidden; }
-
-.item-detail:target {
-animation: blurOut .3s ease forwards;
-opacity: 1;
-pointer-events: auto;
-transform: translateY(0);
-visibility: visible;
-z-index: 10; }
-
-#sections:has(.item-detail:target) .item-section {
-filter: blur(var(--blur-radius));
-opacity: .2;
-pointer-events: none; }
-
-.close-detail {
-background-color: transparent;
-border-width: 0;
-border-radius: 50%;
-cursor: pointer;
-font-size: var(--font-size-r);
-line-height: 1;
-position: absolute;
-right: var(--spacing-r);
-top: var(--spacing-r);
-z-index: 100; }
-
-.item-section h2 { view-transition-name: section-title; }
-
-.item-detail h2 { view-transition-name: detail-title; }
-
-@keyframes blurOut {
-from { backdrop-filter: blur(0); }
-to { backdrop-filter: blur(10px); }
-}
-
-.item-section,
-.item-detail {
-transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-filter 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
-
-@media (prefers-reduced-motion) {
-.item-section, .item-detail {
-transition: opacity .2s ease; }
-}
-</style>
-
 </head>
 
 <body id="jennifer-fan">
@@ -133,138 +60,36 @@ transition: opacity .2s ease; }
 
 <div id="container" class="layout" data-layout="dastardly">
 
-<div id="sections">
-
-<div class="item-section" id="section-1">
-<h2 data-size="r">The art of repair</h2>
-
-<p class="alt-lede">Inspired by Kintsugi&#8212;the art of repairing broken pottery with gold&#8212;cracks aren&#8217;t hidden; they&#8217;re honored as part of your story.</p>
-
-<p><a href="approach.html">Read about my approach</a></p>
-
-</div><!-- item-section -->
-
-<hr>
-
-<div class="item-section" id="section-2">
-<h1 data-size="r">Holding space</h1>
-
-<p class="alt-lede">Session after session, whether you are absorbing grief, trauma, conflict, and complexity that most people never witness or holding the structural weight of an entire team, that burden doesn’t disappear when the hour or day ends. It follows you into your relationships, your rest, your body, and your sense of who you are.</p>
-
-<p><a href="#detail-2">Read about holding space</a></p>
-</div><!-- item-section -->
-
-<hr>
-
-<div class="item-section" id="section-3">
-<h2 data-size="r">Integration is the goal</h2>
-
-<p class="alt-lede">Together, we explore cultural identity, emotional patterns, history, and values. Not to return you to who you were, but to help you integrate into who you&#8217;re becoming.</p>
-
-</div><!-- item-section -->
-
-<hr>
-
-<div class="item-section" id="section-4">
-<h2 data-size="r">Beyond supervision</h2>
-
-<p class="alt-lede">Clinical supervision is essential, but not enough. Traditional supervision centers on managing the complexity of the case, not the complexity of the clinician.</p>
-
-<p><a href="#detail-4">Read about beyond supervision</a></p>
-</div><!-- item-section -->
+<div>
     
-<hr>
-    
-<div class="item-section" id="section-5">
-<h2 data-size="r">A bridge between the work and the self</h2>
+<h1>A Bridge Between the Work and the Self</h1>
 
-<p class="alt-lede">Even with a supportive team, most mental health practitioners carry a quiet sense of professional isolation. What’s missing is the bridge between the work and the self.</p>
+<p>Even with a supportive team, most mental health practitioners carry a quiet sense of professional isolation. This happens because the field tends to offer only two directions of support:</p>
 
-<p><a href="bridge.html">Learn more about this bridge of support</a></p>
+<p>Clinical Supervision (The Work): You look toward the client. This space is essential for ethics and accountability, but because it is evaluative, it is not always a place where vulnerability feels safe.</p>
 
-</div><!-- item-section -->
+<p>Personal Therapy (The Self): You look toward your own history. This space is essential for healing, but it does not always hold the specific, cumulative weight of being a provider.</p>
 
-<hr>
+<p>What’s missing is the bridge between them.</p>
+
+<p>This bridge is a grounded, non-evaluative environment focused entirely on your professional humanity. It is a place to set down the “expert” role and attend to the emotional residue of the work—without judgment, performance, or assessment.</p>
+
+<h3></h3>
+<p>For leaders and supervisors this bridge is often the only place where you are not the final authority. It offers a confidential, stabilizing passage to process ethical, relational, and systemic pressures—without exporting that weight to your team.</p>
+
+<ul class="alt-">
+<li>It isn’t about the case.</li>
+<li>It isn’t about your childhood.</li>
+<li>It’s about you, in the space between.</li>
+</ul>
 
 <hr data-function="spacer">
-
-<div class="alt-cta">
-<a href="#detail-3" class="btn">Book your free consultation</a>
-</div><!-- alt-cta -->
-
-<!-- Detail sections (hidden by default) -->
-
-<div class="item-detail" id="detail-2">
-<button class="close-detail" onclick="location.href='#'">✕</button>
-<div class="detail-content">
-<h2>Holding space</h2>
-
-<p>Session after session, whether you are absorbing grief, trauma, conflict, and complexity that most people never witness or holding the structural weight of an entire team, that burden doesn’t disappear when the hour or day ends. It follows you into your relationships, your rest, your body, and your sense of who you are.</p>
-
-<hr data-function="spacer">
-
-<h3>As clinicians, we&#8221;re containers</h3>
-
-<p>We hold emotion, create safety, and offer presence with a steadiness that often goes unnamed. Over time, that weight can pull us thin, blur our intuition, or disconnect us from the parts of practice that once felt grounding.</p>
-
-<p>The strain doesn&#8217;t stay neatly at work. We hold emotion, create safety, and offer presence with a steadiness that often goes unnamed. Over time, that weight can pull us thin, blur our intuition, or disconnect us from the parts of practice that once felt grounding.</p>
-
-<p>Those cracks aren&#8217;t failures. They&#8217;re the natural result of extraordinary emotional labor carried quietly, consistently, and often alone.</p>
-
-<p>I know this terrain intimately. I&#8217;ve lived the overwhelm, the doubt, the stretching-too-thin; and I&#8217;ve rebuilt from it. Clinical mentorship with me offers a grounded space to set some of that weight down, see yourself more clearly, and return to a way of practicing that feels rooted, sustainable, and fully yours.</p>
-
-<p>The work is weighty. You don&#8217;t have to carry it alone. Take 30 minutes just for you. Let&#8217;s explore how to restore your strength, clarity, and balance.</p>
 
 <div class="alt-cta">
 <a href="javascript:void(0)" class="btn">Book 30 minutes consultation</a>
 </div><!-- alt-cta -->
 
-</div><!-- detail-content -->
-</div><!-- item-detail -->
-
-<div class="item-detail" id="detail-3">
-<button class="close-detail" onclick="location.href='#'">✕</button>
-<div class="detail-content">
-<h2></h2>
-<p></p>
-</div><!-- detail-content -->
-</div><!-- item-detail -->
-
-<div class="item-detail" id="detail-4">
-<button class="close-detail" onclick="location.href='#'">✕</button>
-<div class="detail-content">
-<h2>Beyond supervision</h2>
-
-<p>Clinical supervision is essential, but not enough. Traditional supervision centers on managing the complexity of the case, not the complexity of the clinician.</p>
-
-<p>Shaped by hierarchy and oversight, supervision is necessary for compliance, yet vulnerability always has an edge. It rarely holds the deeper layers of your clinical life:</p>
-
-<ul class="alt-">
-<li>Identity development</li>
-<li>The emotional labor that accumulates</li>
-<li>Countertransference and unspoken doubts</li>
-<li>The somatic experience of the work</li>
-<li>How it reshapes your sense of self</li>
-</ul>
-
-<p>Mentorship begins where supervision ends. It meets you as a whole clinician—your mind, emotions, values, and lived experience—to restore clarity, steadiness, and self-compassion. Our relationship is flexible, collaborative, and deeply human:</p>
-
-<ul class="alt-">
-<li>No evaluation</li>
-<li>No licensure strings</li>
-<li>No pressure to perform</li>
-</ul>
-
-<p>Just presence, curiosity, and shared understanding. Reaching for mentorship isn&#8217;t a sign of struggle; it&#8217;s a sign of intention</p>
-
-<div class="alt-cta">
-<a href="javascript:void(0)" class="btn">Book 30 minutes consultation</a>
-</div><!-- alt-cta -->
-
-</div><!-- detail-content -->
-</div><!-- item-detail -->
-
-</div><!-- sections -->
+</div><!-- one -->
 
 </div><!-- container -->
 
@@ -291,15 +116,6 @@ URL: https://stuffandnonsense.co.uk
 LinkedIn: https://www.linkedin.com/in/allthatmalarkey
 Mastodon: https://mastodon.social/@malarkey
 ******************************************************** -->
-
-<script>
-document.querySelectorAll('.close-detail').forEach(btn => {
-btn.addEventListener('click', () => {
-history.replaceState(null, '', ' ');
-location.hash = '';
-});
-});
-</script>
 
 </body>
 </html>
