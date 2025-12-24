@@ -6,78 +6,6 @@
 <title>Philosophy • Dr. Jennifer Fan</title>
 <!-- @import "/partials/_head" -->
 
-<style>
-@media (prefers-reduced-motion: no-preference) {
-html { view-transition-name: none; }
-}
-
-#sections {
-position: relative; }
-
-.item-section {
-view-transition-name: section; }
-
-.item-detail {
-background-color: var(--color-background-default);
-block-size: 100%;
-inline-size: 100%;
-left: 0;
-opacity: 0;
-padding: var(--spacing-m);
-pointer-events: none;
-overflow-y: auto;
-position: absolute;
-top: 0;
-transform: translateY(20px);
-view-transition-name: detail;
-visibility: hidden; }
-
-.item-detail:target {
-animation: blurOut .3s ease forwards;
-opacity: 1;
-pointer-events: auto;
-transform: translateY(0);
-visibility: visible;
-z-index: 10; }
-
-#sections:has(.item-detail:target) .item-section {
-filter: blur(var(--blur-radius));
-opacity: .2;
-pointer-events: none; }
-
-.close-detail {
-background-color: transparent;
-border-width: 0;
-border-radius: 50%;
-cursor: pointer;
-font-size: var(--font-size-r);
-line-height: 1;
-position: absolute;
-right: var(--spacing-r);
-top: var(--spacing-r);
-z-index: 100; }
-
-.item-section h2 { view-transition-name: section-title; }
-
-.item-detail h2 { view-transition-name: detail-title; }
-
-@keyframes blurOut {
-from { backdrop-filter: blur(0); }
-to { backdrop-filter: blur(10px); }
-}
-
-.item-section,
-.item-detail {
-transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-filter 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
-
-@media (prefers-reduced-motion) {
-.item-section, .item-detail {
-transition: opacity .2s ease; }
-}
-</style>
-
 </head>
 
 <body id="jennifer-fan">
@@ -161,14 +89,6 @@ transition: opacity .2s ease; }
 
 <!-- @import "/partials/_footer" -->
 
-<script>
-document.querySelectorAll('.close-detail').forEach(btn => {
-btn.addEventListener('click', () => {
-history.replaceState(null, '', ' ');
-location.hash = '';
-});
-});
-</script>
 
 </body>
 </html>
