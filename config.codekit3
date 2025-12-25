@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34704",
   "files" : {
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitignore",
+      "oF" : 0
+    },
     "\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -23,6 +31,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/about.html",
+      "oF" : 0
+    },
+    "\/approach.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/approach.html",
       "oF" : 0
     },
     "\/approach.kit" : {
@@ -47,6 +63,38 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/article.html",
+      "oF" : 0
+    },
+    "\/beyond-supervision.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/beyond-supervision.html",
+      "oF" : 0
+    },
+    "\/beyond-supervision.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/beyond-supervision.html",
+      "oF" : 0
+    },
+    "\/bridge.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/bridge.html",
+      "oF" : 0
+    },
+    "\/bridge.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/bridge.html",
       "oF" : 0
     },
     "\/contact.html" : {
@@ -107,6 +155,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/fonts\/lubalin-sans-vf-trial.woff2",
+      "oF" : 0
+    },
+    "\/holding-space.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/holding-space.html",
+      "oF" : 0
+    },
+    "\/holding-space.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/holding-space.html",
       "oF" : 0
     },
     "\/img\/bg-1.svg" : {
@@ -292,6 +356,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/services.html",
+      "oF" : 0
+    },
+    "\/testimonials.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/testimonials.html",
+      "oF" : 0
+    },
+    "\/testimonials.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/testimonials.html",
       "oF" : 0
     }
   },
