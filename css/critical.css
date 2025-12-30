@@ -501,6 +501,12 @@ display: none; }
 .alt-inline li { display: inline-block; }
 .alt-inline li:not(:last-child) { margin-inline-end: var(--spacing-r); }
 
+/* Indent list variant */
+.alt-indent { 
+  margin-inline-start: var(--spacing-r);
+  list-style-type: disc;
+} 
+
 /* ==========================================================================
 TEXT-LEVEL SEMANTICS
 ========================================================================== */
