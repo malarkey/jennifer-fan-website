@@ -6,7 +6,7 @@
 * Generated via: https://www.fluid-type-scale.com/
 */
 
---font-family-default: "lubalin-sans-vf-trial", sans-serif;
+--font-family-default: "lubalin-sans-vf", sans-serif;
 
 /* Fluid font scale - scales between min/max viewports */
 
@@ -134,10 +134,10 @@ CUSTOM FONT FACE
 */
 @font-face {
 font-display: swap;
-font-family: 'lubalin-sans-vf-trial';
+font-family: 'lubalin-sans-vf';
 font-style: normal;
 font-weight: normal;
-src: url('/fonts/lubalin-sans-vf-trial.woff2') format('woff2'); }
+src: url('/fonts/lubalin-sans-vf.woff2') format('woff2'); }
 
 /* ==========================================================================
 UTILITY STYLES
